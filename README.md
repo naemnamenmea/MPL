@@ -1,6 +1,7 @@
 # MPL
 
-Connect the auxiliary header file...
+To use the static library provided below, you need to create an empty project and place all the files `*.h` and `*.cpp` that are available in this repository.
+Include the auxiliary header file and so on...
 
 ```c++
 ...
@@ -13,6 +14,8 @@ int main() {
 ```
 
 ## Quick Sort
+
+Here the representation of overloaded function **quick sort** with several possible prototypes.
 
 ```c++
 ...
@@ -51,7 +54,7 @@ std::cout << std::endl;
 #include "mplSpiralMatrix.h"
 ...
 
-std::vector<std::vector<T>> mtrx = getSpiralMatrx(int n, int m);
+std::vector<std::vector<T>> mtrx = getSpiralMatrix(int n, int m);
 
 std::tuple<int, int, bool> ij = getPosCoord(int n, int m, int pos);
 
@@ -63,8 +66,14 @@ std::tuple<int, int, bool> ij = getPosCoord(int n, int m, int pos);
 
 int n = 6;
 int m = 5;
-auto mtrx = getSpiralMatrx(n, m);
-printSpiralMatrx(mtrx);
+auto mtrx = getSpiralMatrix(n, m);
+printSpiralMatrix(mtrx);
+
+```
+
+In order to simply get a pair `(i,j)` of the nxm matrix by number, you can use the following function.
+
+```c++
 
 int pos = 27;
 auto ij = getPosCoord(n, m, pos);
