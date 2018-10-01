@@ -29,8 +29,8 @@ int main()
 
 	int n = 6;
 	int m = 5;
-	auto mtrx = getSpiralMatrx(n, m);
-	printSpiralMatrx(mtrx);
+	auto mtrx = getSpiralMatrix(n, m);
+	printSpiralMatrix(mtrx);
 
 	/*int pos = 27;
 	auto ij = getPosCoord(n, m, pos);

@@ -5,7 +5,7 @@
 #include "mplSpiralMatrix.h"
 
 template <typename T>
-std::vector< std::vector<T> > getSpiralMatrx(const int& n, const int& m,
+std::vector< std::vector<T> > getSpiralMatrix(const int& n, const int& m,
 	const T& step,
 	const std::pair<bool, bool>& corner) {
 	std::vector< std::vector<T> > spMtrx(n, std::vector<T>(m, 0));
@@ -70,14 +70,14 @@ std::vector< std::vector<T> > getSpiralMatrx(const int& n, const int& m,
 	return spMtrx;
 }
 
-template std::vector< std::vector<int> > getSpiralMatrx(
+template std::vector< std::vector<int> > getSpiralMatrix(
 	const int&,
 	const int&,
 	const int&,
 	const std::pair<bool, bool>&
 );
 
-std::vector< std::vector<int> > getSpiralMatrx(const int& n, const int& m) {
+std::vector< std::vector<int> > getSpiralMatrix(const int& n, const int& m) {
 
 	const int _m = m > 0 ? m : 0;
 	const int _n = n > 0 ? n : 0;
@@ -141,7 +141,7 @@ double arithmSum(const double& a, const double& d, const int& n) {
 	return (2 * a + (n - 1)*d) / 2 * n;
 }
 
-void printSpiralMatrx(const std::vector<std::vector<int>>& matrx) {
+void printSpiralMatrix(const std::vector<std::vector<int>>& matrx) {
 	if (!matrx.size() || !matrx[0].size()) return;
 	for (size_t i = 0; i < matrx.size(); ++i) {
 		for (size_t j = 0; j < matrx[0].size() - 1; ++j) {

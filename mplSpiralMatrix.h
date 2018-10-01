@@ -6,16 +6,16 @@
 //#include <tuple>
 
 template <typename T = int>
-std::vector< std::vector<T> > getSpiralMatrx(
+std::vector< std::vector<T> > getSpiralMatrix(
 	const int& n,
 	const int& m,
 	const T& step = 1,
 	const std::pair<bool, bool>& corner = std::pair<bool, bool>(true, true)
 );
 
-std::vector< std::vector<int> > getSpiralMatrx(const int& n, const int& m);
+std::vector< std::vector<int> > getSpiralMatrix(const int& n, const int& m);
 
-void printSpiralMatrx(const std::vector<std::vector<int>>&);
+void printSpiralMatrix(const std::vector<std::vector<int>>&);
 
 std::tuple<int, double, double> solveQuadEq(const double &a, const double &b, const double &c);
 
