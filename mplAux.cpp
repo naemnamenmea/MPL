@@ -3,8 +3,12 @@
 #include <vector>
 #include <iomanip>
 #include <string>
+#include <sstream>
+#include <experimental/filesystem>
 
-#include "mplAux.h"
+#include "mplAux.hpp"
+
+namespace fs = std::experimental::filesystem;
 
 void Student::printStudents(std::vector<Student> students) {
 	for (auto i : students) std::cout << i << std::endl;
@@ -86,3 +90,22 @@ std::vector<std::string> names{
 	"Оксана Соколова"
 };
 
+std::vector<std::string> getDirectoryFiles(const std::string& pathToDir) {
+	std::vector<std::string> vs;
+	std::stringstream ss;
+	std::string s;
+	for (auto& p : fs::directory_iterator(pathToDir)) {
+		ss << p << std::endl;
+		std::getline(ss,s);
+		vs.push_back(s);
+	}
+	return vs;
+}
+
+std::string dirnameOf(const std::string& fname)
+{
+	size_t pos = fname.find_last_of("\\/");
+	return (std::string::npos == pos)
+		? ""
+		: fname.substr(0, pos);
+}

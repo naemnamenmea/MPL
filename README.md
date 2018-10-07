@@ -1,11 +1,11 @@
 # MPL
 
-To use the static library provided below, you need to create an empty project and place all the files `*.h` and `*.cpp` that are available in this repository.
+To use the static library provided below, you need to create an empty project and place all the files `*.hpp` and `*.cpp` that are available in this repository.
 Include the auxiliary header file and so on...
 
 ```c++
 ...
-#include "mplAux.h"
+#include "mplAux.hpp"
 ...
 int main() {
     ...
@@ -19,7 +19,7 @@ Here the representation of overloaded function **quick sort** with several possi
 
 ```c++
 ...
-#include "mplQuickSort.h"
+#include "mplQuickSort.hpp"
 ...
 template <class T>
 using Comparator = std::function<bool(const T&, const T&)>;
@@ -51,7 +51,7 @@ std::cout << std::endl;
 
 ```c++
 ...
-#include "mplSpiralMatrix.h"
+#include "mplSpiralMatrix.hpp"
 ...
 
 std::vector<std::vector<T>> mtrx = getSpiralMatrix(int n, int m);

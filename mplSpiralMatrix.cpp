@@ -2,7 +2,7 @@
 #include <tuple>
 #include <iostream>
 
-#include "mplSpiralMatrix.h"
+#include "mplSpiralMatrix.hpp"
 
 template <typename T>
 std::vector< std::vector<T> > getSpiralMatrix(const int& n, const int& m,

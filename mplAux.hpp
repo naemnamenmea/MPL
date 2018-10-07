@@ -5,13 +5,15 @@
 //#include <iostream>
 //#include <ctime>
 //#include <vector>
-//#include <string>
+#include <string>
 //#include <algorithm>
 //#include <iomanip>
 //#include <memory>
 //#include <utility>
 //#include <tuple>
 //#include <functional>
+
+const std::string SLS = "MPL> ";
 
 class Student {
 protected:
@@ -33,5 +35,9 @@ public:
 };
 
 extern std::vector<std::string> names;
+
+std::vector<std::string> getDirectoryFiles(const std::string& pathToDir);
+
+std::string dirnameOf(const std::string& fname);
 
 #endif // __mpl__
