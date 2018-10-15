@@ -1,0 +1,7 @@
+﻿  search_engine.cpp
+c:\users\andrew\source\repos\search_engine\search_engine.cpp(23): warning C4930: 'SearchEngine getDataFolder(void)': prototyped function not called (was a variable definition intended?)
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  search_engine.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Debug\search_engine.exe
+  search_engine.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Debug\search_engine.pdb (Partial PDB)

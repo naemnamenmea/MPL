@@ -1,0 +1,12 @@
+﻿  study_tmp.cpp
+  main.cpp
+  study.h
+  study.cpp
+c:\users\andrew\source\repos\c++ workshop\study.cpp(23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  mplSpiralMatrix.cpp
+  mplDocRanking.cpp
+  mplAux.cpp
+  Generating Code...
+x64\Debug\study.obj : warning LNK4042: object specified more than once; extras ignored
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\x64\Debug\C++ workshop.exe
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\x64\Debug\C++ workshop.pdb (Partial PDB)

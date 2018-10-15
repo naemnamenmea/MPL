@@ -1,0 +1,13 @@
+﻿  mplAux.cpp
+  mplDocRanking.cpp
+  mplSpiralMatrix.cpp
+  study.cpp
+  study.h
+  main.cpp
+  study_tmp.cpp
+Release\study.obj : warning LNK4042: object specified more than once; extras ignored
+  Generating code
+  All 479 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Release\C++ workshop.exe
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Release\C++ workshop.pdb (Full PDB)

@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (C++ workshop.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mplAux.cpp
+  main.cpp
+c:\users\andrew\source\repos\c++ workshop\mplQuickSort.hpp(17): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp(38): note: see reference to function template instantiation 'void QuickSort<int>(std::vector<int,std::allocator<_Ty>> &,std::function<bool (const int &,const int &)>)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  mplSpiralMatrix.cpp
+  Generating code
+  All 471 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\x64\Release\MPL.exe
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\x64\Release\MPL.pdb (Full PDB)

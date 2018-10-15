@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (C++ workshop.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mplSpiralMatrix.cpp
+  mplAux.cpp
+  main.cpp
+  Generating Code...
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Debug\MPL.exe
+  C++ workshop.vcxproj -> C:\Users\Andrew\source\repos\C++ workshop\Debug\MPL.pdb (Partial PDB)
